@@ -1,0 +1,326 @@
+@import url(uts1.css);
+body{
+width : 100%;
+height : 100%;
+margin: 0;
+background-color : #F1FDFF;
+position : fixed ;
+}
+.city{
+position : absolute;
+width : 280%;
+height : 280%;
+left: -89%;
+top : 25%;
+z-index : -1;	
+	
+}
+
+.abyellow{
+position:absolute;
+width : 28%;
+height : 28%;left: -5%;
+top : 5%;
+
+animation: balloon 10s linear alternate infinite;
+z-index : 1;
+}
+.bush1{
+position : absolute;
+width : 25%;
+height : 25%;
+left: -5%;
+top : 56%;
+z-index : 5;
+}
+.bush2{
+position : absolute;
+width : 25%;
+height : 25%;
+left : 68%;
+top : 60%;
+z-index : 2;
+}
+
+.chair{
+position : absolute;
+width : 25%;
+height : 25%;
+left : 10%;
+top : 56%;
+z-index: 5;
+}
+
+.house{
+position : absolute;
+width : 40%;
+height : 40%;
+left : 25.6%;
+top : 35.8%;
+z-index: 1;
+}
+
+.icestand{
+position : absolute;
+width : 30%;
+height : 30%;
+left : 55%;
+top : 55%;
+z-index : 3;
+}
+
+.lamp1{
+position : absolute;
+width : 10%;
+height : 10%;
+left : 5.8%;
+top : 63%;
+z-index : 6;
+}
+.lamp2{
+position : absolute;
+width : 39%;
+height : 39%;
+left : 32%;
+top : 43%;
+z-index : 5;
+}
+
+.street{
+width : 100%;
+bottom: 0px;
+position: absolute;
+z-index: 0;
+}
+
+.tree1{
+position : absolute;
+width : 30%;
+height : 30%;
+left : 80%;
+top : 45%;
+z-index : 2;
+}
+
+.tree2{
+position : absolute;
+width : 30%;
+height : 30%;
+left : 15%;
+top : 42%;
+z-index : 3;
+}
+
+.fwcircle{
+position : absolute;
+width : 40%;
+height : 40%;
+left : 2.3%;
+top : 16%;
+animation : rotasi 80s linear infinite;
+z-index : 1;
+}
+.fwstand{
+position : absolute;
+width : 30%;
+height : 30%;
+left : 7.3%;
+top : 34%;
+z-index: 2;
+}
+.fwfence{
+position : absolute;
+width : 40%;
+height : 40%;
+left : 2.1%;
+top : 58.8%;
+z-index : 3;
+}
+
+.fwseat1,
+.fwseat2,
+.fwseat3,
+.fwseat4,
+.fwseat5,
+.fwseat6,
+.fwseat7,
+.fwseat8,
+.fwseat9,
+.fwseat10,
+.fwseat11,
+.fwseat12{
+position : absolute;
+width : 6%;
+height : 6%;
+left : 19.1%;
+top : 35.5%;
+z-index : 0;
+}
+
+.fwseat1{
+animation : rotasi1 80s linear infinite;
+}
+
+.fwseat2{
+animation : rotasi2 80s linear infinite;
+}
+
+.fwseat3{
+animation : rotasi3 80s linear infinite;
+}
+
+.fwseat4{
+animation : rotasi4 80s linear infinite;
+}
+
+.fwseat5{
+animation : rotasi5 80s linear infinite;
+}
+
+.fwseat6{
+animation : rotasi6 80s linear infinite;
+}
+
+.fwseat7{
+animation : rotasi7 80s linear infinite;
+}
+
+.fwseat8{
+animation : rotasi8 80s linear infinite;
+}
+
+.fwseat9{
+animation : rotasi9 80s linear infinite;
+}
+
+.fwseat10{
+animation : rotasi10 80s linear infinite;
+}
+
+.fwseat11{
+animation : rotasi11 80s linear infinite;
+}
+
+.fwseat12{
+animation : rotasi12 80s linear infinite;
+}
+
+.dtseat{
+position : absolute;
+width : 15%;
+height : 15%;
+left : 60.5%;
+top : 29%;
+animation : dtmove 10s -2s linear infinite;
+z-index : 2;
+}
+.dtstand{
+position : absolute;
+width : 40%;
+height : 40%;
+left : 48%;
+top : 28%;
+z-index : 1;
+}
+.dtstars{
+position : absolute;
+width : 5%;
+height : 5%;
+left : 65.5%;
+top : 28%;
+z-index : 2;
+}
+
+.dtseat1{
+position : absolute;
+width : 15%;
+height : 15%;
+left : 52.5%;
+top : 29%;
+animation : dtmove 10s linear infinite;
+z-index : 2;
+}
+.dtstand1{
+position : absolute;
+width : 40%;
+height : 40%;
+left : 40%;
+top : 28%;
+z-index : 1;
+}
+.dtstars1{
+position : absolute;
+width : 5%;
+height : 5%;
+left : 57.5%;
+top : 28%;
+z-index : 2;
+}
+ .psbody{
+ position : absolute;
+width : 49%;
+height : 49%;
+left : 57.9%;
+top : 13.4%;
+animation : psmove 10s infinite ;
+z-index : 1;
+}
+ .pstand{
+position : absolute;
+width : 50%;
+height : 50%;
+left : 58%;
+top : 28%;
+z-index : 1;
+ }
+ 
+  .cloud1{
+position : absolute;
+width : 35%;
+height : 35%;
+left : 60%;
+top : 2%;
+animation : kanan 50s linear infinite;
+ }
+ 
+ .cloud2{
+position : absolute;
+width : 30%;
+height : 30%;
+left : 30%;
+top : 7%;
+animation : kanan 50s -10s linear infinite  ;
+ }
+ .cloud3{
+position : absolute;
+width : 30%;
+height : 30%;
+left : 20%;
+top : 2%;
+animation : kanan 50s -20s linear infinite ;
+ }
+ .cloud4{
+position : absolute;
+width : 20%;
+height : 20%;
+left : 1%;
+top : 15%;
+animation : kanan 50s -30s linear infinite ;
+ }
+  .cloud5{
+position : absolute;
+width : 30%;
+height : 30%;
+left : 60%;
+top : 2%;
+animation : kanan 50s -40s linear infinite ;
+ }
+ .cloud6{
+position : absolute;
+width : 20%;
+height : 20%;
+left : 30%;
+top : 7%;
+animation : kanan 50s -50s linear infinite ;
+ }
+ 
